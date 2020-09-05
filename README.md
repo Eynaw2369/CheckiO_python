@@ -1,2 +1,2 @@
 # checkio_solutions
-## check out https://py.checkio.org/
+Go check out https://py.checkio.org/ ! 
