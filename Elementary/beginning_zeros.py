@@ -1,6 +1,12 @@
 def beginning_zeros(number: str) -> int:
     # your code here
-    return 0
+    count = 0
+    for index in range(0, len(number), 1):
+        if str(number)[index] == '0':
+            count += 1
+            continue
+        return count
+    return count
 
 
 if __name__ == '__main__':

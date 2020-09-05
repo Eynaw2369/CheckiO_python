@@ -1,9 +1,9 @@
 def end_zeros(num: int) -> int:
     # your code here
     count = 0
-    for index in range(len(str(num))-1 , -1, -1):
+    for index in range(len(str(num))-1, -1, -1):
         if str(num)[index] == '0':
-            count+=1
+            count += 1
             continue
         return count
     return count
