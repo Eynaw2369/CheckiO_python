@@ -2,13 +2,17 @@
 # You can import some modules or create additional functions
 
 
-def checkio(data: list) -> list:
-    new_list = []
-    for i in data:
-        if data.count(i) > 1:
-            new_list.append(i)
-    return new_list
+# def checkio(data: list) -> list:
+#     new_list = []
+#     for i in data:
+#         if data.count(i) > 1:
+#             new_list.append(i)
+#     return new_list
 
+
+def checkio(data: list) -> list:
+    new_list = [i for i in data if data.count(i) > 1]
+    return new_list
 
 # Some hints
 # You can use list.count(element) method for counting.
