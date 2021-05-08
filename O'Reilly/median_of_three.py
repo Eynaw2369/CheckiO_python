@@ -2,7 +2,7 @@ from typing import Iterable
 from statistics import median
 
 
-def median_three(els: Iterable[int]) -> Iterable[int]:
+def median_three(els):
     # your code here
     return els[:2] + [median(els[n:n + 3]) for n in range(len(els) - 2)]
 
